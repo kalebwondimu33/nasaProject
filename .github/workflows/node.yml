@@ -11,7 +11,7 @@ jobs:
   build:
     env:
       CI: true #to exit the watch mode
-      MONGO_UR: mongodb://localhost/nasa
+      MONGO_URL: mongodb://localhost/nasa
 
     strategy:
       matrix:
